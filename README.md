@@ -23,7 +23,7 @@ Welcome to **SQL Daily Practice Questions**, where you can sharpen your SQL skil
 
 1. Clone or download this repository to access the question files:  
    ```bash
-   git clone https://github.com/yourusername/sql-daily-practice.git
+   git clone https://github.com/shaikhsajid-1201/SQL_Practice_Question.git
    ```  
 
 2. Browse the questions:  
