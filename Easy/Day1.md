@@ -1,4 +1,4 @@
-# 💡Can You Solve This? EASY SQL Practice Question
+# 💡Can You Solve This? EASY #SQL Practice Question
 
 **Question**  
 "Find the total sales for each region where the average discount given in that region is more than 10%. Include the columns Region, Total Sales, and Average Discount. Sort the output by Total Sales in descending order."
@@ -34,6 +34,17 @@ INSERT INTO sales_data (region, sales, discount) VALUES
 2. **Calculate Total Sales and Average Discount:** Use `SUM(sales)` for total sales and `AVG(discount)` for the average discount.  
 3. **Filter with `HAVING`:** Ensure only regions where the average discount is greater than 10% appear in the results.  
 4. **Sort by Total Sales:** Order the output in descending order of total sales using `ORDER BY SUM(sales) DESC`.  
+
+🔥 𝗜'𝗺 𝗽𝗼𝘀𝘁𝗶𝗻𝗴 𝟭 𝗦𝗤𝗟 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻 𝗲𝘃𝗲𝗿𝘆 𝗱𝗮𝘆!  
+#### Previous SQL Questions :
+- 
+
+
+🚀 Can you solve this SQL challenge? Share your approach in the comments! 
+
+Follow Sajid Shaikh for more such SQL questions
+
+#SQLChallenge #DataAnalytics #InterviewPreparation #JOB
 
 ```sql
 SELECT
