@@ -6,6 +6,8 @@
 **📖 𝗪𝗵𝗮𝘁 𝘆𝗼𝘂 𝘄𝗶𝗹𝗹 𝗹𝗲𝗮𝗿𝗻**  
 🔍 By solving this, you'll learn how to use `GROUP BY`, `HAVING`, and aggregate functions like `SUM` and `AVG`. It’s a great exercise to understand filtering grouped data with conditions! Give it a try and share your results! 👇  
 
+--- 
+
 **👇 𝗦𝗰𝗵𝗲𝗺𝗮 𝗮𝗻𝗱 𝗗𝗮𝘁𝗮𝘀𝗲𝘁**  
 ```sql
 -- Schema
@@ -29,16 +31,21 @@ INSERT INTO sales_data (region, sales, discount) VALUES
 ('South', 10000, 12);
 ```
 
+---
+
 **🔑 𝗘𝘅𝗽𝗹𝗮𝗻𝗮𝘁𝗶𝗼𝗻 𝘁𝗼 𝘀𝗼𝗹𝘃𝗲 𝘁𝗵𝗶𝘀 𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻**  
 1. **Use the `GROUP BY` clause:** Group the records by the `region` column to calculate aggregated values per region.  
 2. **Calculate Total Sales and Average Discount:** Use `SUM(sales)` for total sales and `AVG(discount)` for the average discount.  
 3. **Filter with `HAVING`:** Ensure only regions where the average discount is greater than 10% appear in the results.  
 4. **Sort by Total Sales:** Order the output in descending order of total sales using `ORDER BY SUM(sales) DESC`.  
 
+--- 
+
 🔥 𝗜'𝗺 𝗽𝗼𝘀𝘁𝗶𝗻𝗴 𝟭 𝗦𝗤𝗟 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻 𝗲𝘃𝗲𝗿𝘆 𝗱𝗮𝘆!  
 
 - LinkedIn Post Link (This Post)- 
 
+---
 
 🚀 Can you solve this SQL challenge? Share your approach in the comments! 
 
