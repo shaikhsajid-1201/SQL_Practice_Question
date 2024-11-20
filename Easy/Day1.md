@@ -36,8 +36,8 @@ INSERT INTO sales_data (region, sales, discount) VALUES
 4. **Sort by Total Sales:** Order the output in descending order of total sales using `ORDER BY SUM(sales) DESC`.  
 
 🔥 𝗜'𝗺 𝗽𝗼𝘀𝘁𝗶𝗻𝗴 𝟭 𝗦𝗤𝗟 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻 𝗲𝘃𝗲𝗿𝘆 𝗱𝗮𝘆!  
-#### Previous SQL Questions :
-- 
+
+- LinkedIn Post Link (This Post)- 
 
 
 🚀 Can you solve this SQL challenge? Share your approach in the comments! 
