@@ -1,12 +1,12 @@
 # 💡Can You Solve This? EASY #SQL Practice Question
 
-**Question**  
+**❓𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻**  
 "Find the total sales for each region where the average discount given in that region is more than 10%. Include the columns Region, Total Sales, and Average Discount. Sort the output by Total Sales in descending order."
 
-**What you will learn**  
+**📖 𝗪𝗵𝗮𝘁 𝘆𝗼𝘂 𝘄𝗶𝗹𝗹 𝗹𝗲𝗮𝗿𝗻**  
 🔍 By solving this, you'll learn how to use `GROUP BY`, `HAVING`, and aggregate functions like `SUM` and `AVG`. It’s a great exercise to understand filtering grouped data with conditions! Give it a try and share your results! 👇  
 
-**Schema and Dataset**  
+**👇 𝗦𝗰𝗵𝗲𝗺𝗮 𝗮𝗻𝗱 𝗗𝗮𝘁𝗮𝘀𝗲𝘁**  
 ```sql
 -- Schema
 CREATE TABLE sales_data (
@@ -29,7 +29,7 @@ INSERT INTO sales_data (region, sales, discount) VALUES
 ('South', 10000, 12);
 ```
 
-**Explanation to solve this Question**  
+**🔑 𝗘𝘅𝗽𝗹𝗮𝗻𝗮𝘁𝗶𝗼𝗻 𝘁𝗼 𝘀𝗼𝗹𝘃𝗲 𝘁𝗵𝗶𝘀 𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻**  
 1. **Use the `GROUP BY` clause:** Group the records by the `region` column to calculate aggregated values per region.  
 2. **Calculate Total Sales and Average Discount:** Use `SUM(sales)` for total sales and `AVG(discount)` for the average discount.  
 3. **Filter with `HAVING`:** Ensure only regions where the average discount is greater than 10% appear in the results.  
