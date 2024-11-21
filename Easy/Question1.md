@@ -35,7 +35,7 @@ INSERT INTO sales_data (region, sales, discount) VALUES
 3. **Filter with `HAVING`:** Ensure only regions where the average discount is greater than 10% appear in the results.  
 4. **Sort by Total Sales:** Order the output in descending order of total sales using `ORDER BY SUM(sales) DESC`.  
 
-- [LinkedIn Post Link]() 
+- [LinkedIn Post Link](https://www.linkedin.com/posts/sajidshaikh-dataanalyst_sql-sqlchallenge-dataanalytics-activity-7265197253294723072-YjdG?utm_source=share&utm_medium=member_desktop) 
 
 **Solution** -  
 ```sql
