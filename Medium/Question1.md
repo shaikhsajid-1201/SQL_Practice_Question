@@ -50,5 +50,20 @@ To solve this question, you'll need to:
 
 **SOLUTION** -
 ```sql
-
+SELECT 
+    d.Department_Name,
+    COUNT(e.Employee_ID) AS Number_of_Employees,
+    AVG(e.Salary) AS Average_Salary
+FROM 
+    Employees e
+JOIN 
+    Departments d
+ON 
+    e.Department_ID = d.Department_ID
+GROUP BY 
+    d.Department_Name
+HAVING 
+    COUNT(e.Employee_ID) > 3
+ORDER BY 
+    d.Department_Name;
 ```
