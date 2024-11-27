@@ -1,4 +1,4 @@
-# **Revenue Leak Detector" - E-commerce Analytics Challenge (Amazon)**
+# **Revenue Leak Detector - E-commerce Analytics Challenge (Amazon)**
 
 #### Question:
 An e-commerce company noticed discrepancies in their revenue records. They suspect some transactions might have been recorded incorrectly. Your task is to identify potential revenue leaks by finding transactions where the `total_price` of an order does not match the sum of `price_per_unit * quantity` for the items in the order.
