@@ -56,5 +56,17 @@ Use ORDER BY on total sales and limit to the top 3 beverages.
 
 #### Solution :
 ```SQL
-
+SELECT 
+    beverage_name, 
+    SUM(quantity_sold) AS total_quantity_sold
+FROM 
+    sales
+WHERE 
+    MONTH(sale_date) IN (9, 10, 11) 
+    AND YEAR(sale_date) = 2023
+GROUP BY 
+    beverage_name
+ORDER BY 
+    total_quantity_sold DESC
+LIMIT 3;
 ```
