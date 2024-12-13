@@ -32,12 +32,12 @@ INSERT INTO netflix (title, genre, release_year, date_added, country, director, 
 📊 Master advanced GROUP BY and aggregate functions: Gain expertise in complex queries involving grouping, ranking, and ties in data.
 
 #### Explanation:
-1️⃣ Focus on the genre column to find the count of titles added per year for each genre.
-2️⃣ Use GROUP BY year and genre to get counts for each combination.
-3️⃣ Use ranking techniques (e.g., ROW_NUMBER or RANK) to find the top genre(s) for each year.
-4️⃣ Handle ties by including genres with the same count as the highest.
-5️⃣ Sort the result to make it user-friendly.
+1️⃣ Focus on the genre column to find the count of titles added per year for each genre.  
+2️⃣ Use GROUP BY year and genre to get counts for each combination.  
+3️⃣ Use ranking techniques (e.g., ROW_NUMBER or RANK) to find the top genre(s) for each year.  
+4️⃣ Handle ties by including genres with the same count as the highest.  
+5️⃣ Sort the result to make it user-friendly.  
 
 #### Solution:
-```sql
+```SQL
 ```
